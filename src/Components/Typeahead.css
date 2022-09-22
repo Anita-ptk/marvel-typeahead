@@ -1,0 +1,41 @@
+.searchInput{
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-template-rows: auto;
+    justify-items: start;
+}
+
+.searchInput input{
+    padding: 8px;
+    border-radius: 3px;
+    border-color: #7cbbe09a;
+}
+
+button{
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #F9D800;
+    font-weight: 600;
+}
+
+button:hover{
+    cursor: pointer;
+    border-color: #F9D800;
+}
+
+.results{
+    margin-left: 10px;
+}
+
+.result {
+    margin: 2px;
+    font-weight: 600;
+    text-align: left;
+    display: grid;
+}
+
+.result:hover{
+    background-color: rgb(208, 208, 208);
+    cursor: pointer;
+}
